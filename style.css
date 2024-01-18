@@ -1,0 +1,369 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #00A9FF;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: x-large;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.nav:hover{
+    text-decoration: underline;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+.container{
+    width: 500px;
+    height: 400px;
+    border: 0px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    
+   
+}
+.Contain{
+    width: 560px;
+    height: 400px;
+    padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+
+.profile-img{
+    width: 250px;
+    border: px solid black;
+    height: 250px;
+    border-radius: 50%;
+    margin-left:23%;
+    margin-top:5%;
+    overflow: hidden;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#profile-pic{
+    width: 100%;
+    height:auto;
+
+}
+.resume{
+    margin-top: 10%;
+    margin-left: 42%;
+}
+#re{
+    width: 190px;
+    height: 60px;
+    border: 2px solid black;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+   
+}
+#re:hover{
+    background-color:#00A9FF;
+    padding: 8px;
+    border: opx solid rgb(68, 132, 182);
+   
+}
+
+#lo{
+    margin-left:45%;
+    margin-top: 5%;
+}
+#self{
+    text-align: center;
+    margin-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#welcome{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.main-projects{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    height: 300px;
+}
+.projects{
+    border: 0px solid black;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    margin-top: 2%;
+   
+
+}
+.projects:hover{
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h3{
+    margin-top: 80px;
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#amazon{
+    height: 200px;
+    width: 320px;
+}
+#flipkart{
+    height: 200px;
+    width: 300px;
+    margin-left: 30px;
+    
+}
+#myntra{
+    height: 70px;
+    width: 250px;
+    margin-top: 45px;
+    margin-bottom: 90px;
+    margin-left: 18px;
+}
+#netflix{
+    height: 100px;
+    padding: 50px;
+    margin-left: 30px;
+    
+}
+.main-projects a{
+      text-decoration: none;
+      color: black;
+      margin-left: 35%;
+      margin-top: 30px;
+      font-size: larger;
+
+}
+
+.skill-main{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.skill{
+    height: 370px;
+    width: 600px;
+    border: solid 2px black;
+}
+
+.skill h2{
+    text-align: center;
+    margin-top: 5px;
+}
+#skill-img{
+    width: 500px;
+    height: 370px;
+}
+.skill-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skill-photo img{
+    width: 130px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    background-color: #99dbfc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+#insta{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+#link{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+#supper{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+span{
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+#insta:hover{
+    width: 60px;
+    height: 60px;
+}
+
+#link:hover{
+    width: 60px;
+    height: 60px;
+}
+
+#supper:hover{
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width:400px){
+    .navbar{
+        width: 400px;
+        height: 40px;
+        justify-content: space-evenly;
+    }
+    .nav{
+        font-size: small;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .container{
+        width: 400px;
+        justify-content: space-around;
+    }
+    #profile-pic{
+        margin-right: 50px;
+    }
+
+    .resume{
+        align-items: center;
+        margin-left: 180px;
+    }
+
+    .Contain{
+        width: 400px;
+    }
+    .Contain h1{
+        font-size: medium;
+    }
+    .Contain p{
+        font-size: medium;
+    }
+    h3{
+        width: 400px;
+    }
+    .main-projects{
+        width: 400px;
+        height: 1100px;
+        flex-direction: column;
+    }
+    .projects{
+        width: 300px;
+        flex-direction: column; 
+        margin-left: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        grid-auto-columns: 10px;
+    }
+    #myntra{
+        height: 50px;
+        width: 200;
+        margin-top: 70px;
+        margin-bottom: 75px;
+    }
+    #flipkart{
+        width: 270px;
+    }
+    #netflix{
+        margin-left: 20px;
+    }
+    .skill-main{
+        width: 400px;
+        flex-direction: column;
+    }
+    .skill{
+        width: 395px;
+    }
+    .skill-photo img{
+        width: 90px;
+        height: 100px;
+    }
+    #skill-img{
+        width: 400px;
+        height: 300px;
+
+    }
+    footer{
+        width: 400px;
+        height: 35px;
+        justify-content: center;
+    }
+    .fot-div{
+        margin-top: 55px;
+    }
+    span{
+        font-size: small;
+        margin-top: 55px;
+    }
+    
+    #insta{
+        width: 25px;
+        height: 25px;
+        margin-top: 55px;
+    }
+    
+    #link{
+        width: 25px;
+        height: 25px;;
+        margin-top: 55px;
+    }
+    #supper{
+        width: 25px;
+        height: 25px;
+        margin-top: 55px;
+    }
+    #insta:hover{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #link:hover{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #supper:hover{
+        width: 30px;
+        height: 30px;
+    }
+}
